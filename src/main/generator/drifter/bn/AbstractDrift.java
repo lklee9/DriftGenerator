@@ -1,7 +1,6 @@
 package main.generator.drifter.bn;
 
 import main.generator.componets.BayesianNetworkGenerator;
-import main.models.prior.BayesianNetwork;
 
 /**
  * Created by loongkuan on 26/04/16.

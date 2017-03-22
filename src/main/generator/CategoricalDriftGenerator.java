@@ -14,11 +14,9 @@ import com.yahoo.labs.samoa.instances.Attribute;
 import com.yahoo.labs.samoa.instances.DenseInstance;
 import moa.core.FastVector;
 import moa.options.AbstractOptionHandler;
-import moa.options.*;
 
 import moa.streams.InstanceStream;
 import org.apache.commons.math3.random.RandomDataGenerator;
-import weka.core.Instance;
 
 import java.io.BufferedWriter;
 import java.io.File;
