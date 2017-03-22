@@ -17,6 +17,9 @@ import org.eclipse.recommenders.jayes.BayesNode;
 import java.math.BigInteger;
 import java.util.*;
 
+/**
+ * Generator that uses a bayesian network for covariates and a tree for posterior
+ */
 
 public class AbruptTreeDriftGenerator extends CategoricalDriftGenerator{
     private InstancesHeader streamHeader;
