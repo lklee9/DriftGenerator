@@ -1,3 +1,6 @@
+/*
+Modified code from: https://github.com/fpetitjean/DataGeneratorBN/blob/master/src/generator/RandomStructureGenerator.java
+*/
 package main.generator.componets;
 
 
