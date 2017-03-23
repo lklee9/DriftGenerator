@@ -10,8 +10,11 @@ public class example {
 
     public static void main(String[] args) {
         int nBurnIn = 10;
+        // Create new generator object
         AbruptTreeDriftGenerator dataStream = new AbruptTreeDriftGenerator();
+        // Configure the generator's parameters
         configureDataSet(dataStream, nBurnIn);
+        // Initialise generator with configured parameters to produce data stream
         dataStream.prepareForUse();
         for (int i = 0; i < nBurnIn*2; i++) {
             System.out.println(dataStream.nextInstance().getData().toString());
